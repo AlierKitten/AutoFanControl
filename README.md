@@ -24,8 +24,7 @@
 >Description=AutoFanControl_PNP
 >
 >[Service]
->ExecStart=/usr/bin/python3 /home/pi/T
-pycharm/fan_speed.py
+>ExecStart=/usr/bin/python3 /home/pi/pycharm/fan_speed.py
 >WorkingDirectory=/home/pi/pycharm/
 >StandardOutput=inherit
 >StandardError=inherit
