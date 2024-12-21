@@ -6,7 +6,7 @@
 
 当温度到达阈值时才会启动，当温度到达停转阈值后会继续工作20S才会停转
 
-原理图如下
+原理图如下：
 
 ![](https://github.com/AlierKitten/AutoFanControl/blob/main/Schematic.png)
 
@@ -24,8 +24,9 @@
 >Description=AutoFanControl_PNP
 >
 >[Service]
->ExecStart=/usr/bin/python3 /home/pi/TonyPi/pycharm/fan_speed.py
->WorkingDirectory=/home/pi/TonyPi/pycharm/
+>ExecStart=/usr/bin/python3 /home/pi/T
+pycharm/fan_speed.py
+>WorkingDirectory=/home/pi/pycharm/
 >StandardOutput=inherit
 >StandardError=inherit
 >Restart=always
