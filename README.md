@@ -8,6 +8,7 @@
 
 原理图如下
 
+![](https://github.com/AlierKitten/AutoFanControl/blob/main/Schematic.png)
 
 
 ## 开机自启动程序
